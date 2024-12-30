@@ -1,10 +1,10 @@
 /* styles.css */
 :root {
-    --primary-color: #3498db;
-    --secondary-color: #2c3e50;
-    --accent-color: #e74c3c;
+    --primary-color: #CC6900;
+    --secondary-color: #262A10;
+    --accent-color: #A2AD59;
     --text-color: #333;
-    --background-color: #ecf0f1;
+    --background-color: #D4E09B;
 }
 
 body {
@@ -114,10 +114,22 @@ h1, h2, h3 {
     opacity: 1;
 }
 
+#home {
+    background-image: url("IMG_2835.jpeg"); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    height: 100vh; /* Sets the height of the section to full viewport height */
+    color: #D4E09B; /* Optional: Change text color for better contrast */
+    display: flex; /* Optional: Use flexbox for centering content */
+     /* Aligns items vertically */
+     /* Centers content vertically */
+     /* Centers content horizontally */
+}
+
 .container {
     max-width: 1200px; /* Adjust this value based on your design */
     margin: 0 auto;  /* Center the container horizontally */
-    padding: 20px;  /* Add padding for visual spacing */
+    padding: 50px;  /* Add padding for visual spacing */
 }
 
 @media (max-width: 768px) {
@@ -237,3 +249,27 @@ footer {
     padding: 1rem 0;
     margin-top: 2rem;
 }
+
+.course-card {
+    background-color: var(--accent-color);
+    position: relative;
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #262A10;
+    transition: transform 0.3s ease, height 0.3s ease;
+  }
+  
+  .course-card:hover {
+    transform: translateY(-10px);
+    height: 200px; /* Adjust height as needed */
+  }
+  
+  .course-details {
+    display: none;
+  }
+  
+  .course-card:hover .course-details {
+    display: block;
+  }
+  
