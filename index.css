@@ -790,6 +790,16 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
+
+.home-text51 {
+  color: #d2691e;
+  font-style: normal;
+  text-align: left;
+  font-weight: 700;
+  margin-bottom: 4px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
  
 .home-controls {
   display: grid;
